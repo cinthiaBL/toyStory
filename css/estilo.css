@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../img/fondo.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.wrapper{
+	background-color: rgba(255,255,255,0.81);
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box; /*No sobre sale*/
+}
+.footer{
+	background-color: rgba(213,0,0,0.88);
+	width: 1000px;
+	height: 60px;
+	color: white;
+	font-family: "Josefin Sans", sans-serif;
+	line-height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.nav{
+	background-color: rgba(213,0,0,0.88);
+	width: 1000px;
+	height: 160px;
+	color: white;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav ul{
+	list-style-type: none;
+}
+.nav li{
+	width: 200px;
+	float: left;
+}
+.section{
+	background-color: rgba(116,116,116,0.75);
+	width: 700px;
+	padding: 70px;
+	margin: 50px auto;
+	cursor: url("../img/rex.png"),auto;
+}
+.section img{
+	height: 300px;
+	width: auto;
+}
+.section p{
+	text-align: justify;
+	font-size: 18px;
+	font-family: "Josefin Sans", sans-serif;
+}
+h2{
+	color: #A80002;
+	font-family: toy;
+}
+
+
+@font-face{
+	src: url("../src/Takeshi DEMO.otf");
+	font-family: toy; /*font-face permite colocar fuentes de fantasia descargadas, el font family es para asignarle un nombre y depués utilizarlo en la página*/
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #FFFF00;
+	font-size: 23px;
+}
+.boton{
+	position: fixed;
+	right: 60px;
+	top:200px;
+}
+.img1{
+	position: absolute;
+	left: 170px;
+	bottom: 150px;
+}
+.img1:hover{
+	transform: translate(100px,50px);
+	transition: ease-out 5s;
+}
+.img2{
+	position: absolute;
+	right: 240px;
+	top: 530px;
+}
+.img2:hover{
+	transform: rotate(360deg);
+	transition: ease-in 5s;
+}
+.img3{
+	position: absolute;
+	left: 250px;
+	bottom: -430px;
+	
+}
+.img3:hover{
+	transform: skewX(180deg);
+	transition: ease-out 5s;
+}
+.img4{
+	position: absolute;
+	right: 190px;
+	top: 1150px;
+}
+.img4:hover{
+	transform: rotate(360deg) scale(0.40);
+	transition: ease-out 3s;
+}
+.img5{
+	position: absolute;
+	left: 120px;
+	bottom: -1090px;
+}
+.img5:hover{
+	transform: translate(50px,50px);
+	transition: ease-out 3s;
+	
+}
